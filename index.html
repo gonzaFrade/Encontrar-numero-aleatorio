@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <title>Juego UAI</title>
+    <link rel="shortcut icon" href="https://revistaimagen.com.ar/wp-content/uploads/2016/07/logo_UAI.jpg" type="image/x-icon">
+</head>
+<body>
+    <section class="cointainer__section">
+        <div class="cointainer__titulo">
+            <h1 style="font-size: 40px;">Juego de adivinanza de numero random</h1>
+        </div>
+        <div class="Cointainer__input">
+            <button class="game-button" id="btnComenzar">Comenzar</button>
+            <br>
+            <input type="text" id="txtA" placeholder="Ingrese un numero del 1 al 100">
+        </div>
+        <div class="cointainer__btn">
+            <button class="game-button green" id="btnEnviar">Enviar adivinanza</button>
+            <br>
+            <button class="game-button orange" id="btnReiniciar">Reiniciar</button>
+        </div>
+        <div class="cointainer__feedback">
+            <p id="feedback" style="color: white;" ></p>
+        </div>
+    </section>
+    <script src="./JS/adivinanza.js"></script>
+</body>
+</html>
